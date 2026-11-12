@@ -303,7 +303,7 @@ public class Main extends JFrame {
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         } catch (Exception ignored) {
-            // Mantém o estilo padrão quando o sistema não oferece outro.
+            
         }
         SwingUtilities.invokeLater(() -> new Main().setVisible(true));
     }
