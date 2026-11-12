@@ -1,9 +1,9 @@
-# Arquivos gerados na compilação Java
+# Arquivos gerados pelo Java
 build/
 *.class
-# Configurações locais de IDE
-.idea/
+
+# Arquivos temporários das IDEs
 .settings/
 .classpath
 .project
-*.iml
+.idea/

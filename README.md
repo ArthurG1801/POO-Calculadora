@@ -6,11 +6,11 @@
 
 ## Sobre o trabalho
 
-Neste trabalho, fiz uma calculadora em Java para praticar os métodos e os conceitos de POO. Usei a classe `Calculadora` para organizar as operações e o Java Swing para criar uma tela em que é possível digitar dois números e escolher a conta.
+Neste trabalho, continuei a calculadora em Java que começamos no laboratório do dia 09/11. Mantive a classe `Calc`, a janela `JFrame`, o campo de resultado e os botões numéricos que usamos na aula. Corrigi a parte dos cálculos e completei as cinco operações pedidas pelo professor.
 
-Além das quatro operações básicas, também coloquei a potenciação. No título da janela aparecem meu nome completo e meu RA.
+Também coloquei meu nome completo e RA no título da janela.
 
-## Operações
+## Operações da calculadora
 
 - Adição — `somar()`
 - Subtração — `subtrair()`
@@ -18,33 +18,34 @@ Além das quatro operações básicas, também coloquei a potenciação. No tít
 - Divisão — `dividir()`
 - Potência — `potencia()`
 
-Também fiz uma verificação para não permitir divisão por zero.
+A calculadora permite digitar números, usar vírgula ou ponto decimal, limpar a tela e calcular pelo botão `=`. O resultado aparece junto com a conta completa. Por exemplo, em uma multiplicação de 12 por 5, a tela mostra **12 × 5 = 60**. Também tem uma verificação para não permitir divisão por zero.
 
-## Print da calculadora
+## Print da tela
 
-![Tela da calculadora com meu nome e RA](Calculadora/prints/tela_calculadora.png)
+![Calculadora feita a partir do código do laboratório, com o nome e o RA na barra de título](Calculadora/prints/tela_calculadora.png)
 
 ## Como executar
 
-É necessário ter o Java JDK instalado. No Windows, basta abrir o arquivo `Calculadora/executar.bat`.
+É necessário ter o Java JDK instalado. No Windows, abra `Calculadora/executar.bat`.
 
-Também dá para executar pelo terminal, na pasta principal do repositório:
+Também é possível executar pelo terminal a partir da pasta principal do repositório:
 
 ```bash
 cd Calculadora
-javac -encoding UTF-8 -d build src/Calculadora.java src/Main.java src/TesteCalculadora.java
-java -cp build Main
+javac -encoding UTF-8 -d build src/calculadora/Calculadora.java src/calculadora/Calc.java src/calculadora/TesteCalculadora.java
+java -cp build calculadora.Calc
 ```
 
-Para testar os métodos, use:
+Para testar as cinco operações:
 
 ```bash
-java -cp build TesteCalculadora
+java -cp build calculadora.TesteCalculadora
 ```
 
-## Arquivos do projeto
+## Arquivos
 
-- [`src/Calculadora.java`](Calculadora/src/Calculadora.java) — contém os cinco métodos.
-- [`src/Main.java`](Calculadora/src/Main.java) — contém a tela da calculadora.
-- [`src/TesteCalculadora.java`](Calculadora/src/TesteCalculadora.java) — contém os testes das operações.
-- [`prints/tela_calculadora.png`](Calculadora/prints/tela_calculadora.png) — imagem da calculadora funcionando.
+- [`src/calculadora/Calc.java`](Calculadora/src/calculadora/Calc.java) — tela e botões, continuando o código da aula.
+- [`src/calculadora/Calculadora.java`](Calculadora/src/calculadora/Calculadora.java) — métodos das cinco operações.
+- [`src/calculadora/TesteCalculadora.java`](Calculadora/src/calculadora/TesteCalculadora.java) — testes dos cálculos.
+- [`prints/tela_calculadora.png`](Calculadora/prints/tela_calculadora.png) — print da calculadora funcionando.
+[Ver a pasta completa da calculadora](Calculadora/).
