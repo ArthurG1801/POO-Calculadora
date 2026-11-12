@@ -6,9 +6,9 @@
 
 ## Sobre o trabalho
 
-Neste trabalho, continuei a calculadora em Java que começamos no laboratório do dia 09/11. Mantive a classe `Calc`, a janela `JFrame`, o campo de resultado e os botões numéricos que usamos na aula. Corrigi a parte dos cálculos e completei as cinco operações pedidas pelo professor.
+Neste trabalho, continuei a calculadora em Java iniciada no laboratório do dia 09/11. Mantive a estrutura usada na aula e completei as cinco operações pedidas pelo professor. Também ajustei os cálculos para a calculadora funcionar corretamente.
 
-Também coloquei meu nome completo e RA no título da janela.
+Meu nome completo e RA estão no título da janela, conforme pedido na atividade.
 
 ## Operações da calculadora
 
@@ -22,7 +22,9 @@ A calculadora permite digitar números, usar vírgula ou ponto decimal, limpar a
 
 ## Print da tela
 
-![Calculadora feita a partir do código do laboratório, com o nome e o RA na barra de título](Calculadora/prints/tela_calculadora.png)
+![Calculadora em Java, com nome e RA no cabeçalho](Calculadora/prints/tela_calculadora.png)
+
+O [print completo com o título da janela](Calculadora/prints/tela_calculadora_com_titulo.png) também está disponível para conferir o TITLE FORM.
 
 ## Como executar
 
