@@ -14,7 +14,6 @@ Este projeto dá continuidade à classe `Calculadora` trabalhada em exercícios 
 4. **Divisão:** `dividir(double a, double b)` (impede divisão por zero)
 5. **Potência:** `potencia(double base, double expoente)` (usa `Math.pow`)
 
-O **título do formulário** (`JFrame`) contém o nome completo e o RA, assim como o cabeçalho da janela.
 
 ## Print da tela
 
