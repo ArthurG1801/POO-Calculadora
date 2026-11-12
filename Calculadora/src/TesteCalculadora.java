@@ -1,4 +1,3 @@
-/** Testes simples, sem bibliotecas externas, para as cinco operações. */
 public class TesteCalculadora {
     private static void verificar(String nome, double esperado, double atual) {
         if (Math.abs(esperado - atual) > 1e-9) {
