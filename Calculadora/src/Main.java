@@ -25,10 +25,8 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
 
-/**
- * Interface gráfica da Calculadora POO usando Java Swing.
- * O título do formulário (JFrame) identifica o aluno e o RA.
- */
+
+
 public class Main extends JFrame {
     private static final long serialVersionUID = 1L;
 
