@@ -21,7 +21,7 @@ Este projeto dá continuidade à classe `Calculadora` trabalhada em exercícios 
 
 ## Como executar (JDK 8 ou superior)
 
-Abra o terminal na pasta `Calculadora` e execute:
+Abra o terminal na pasta principal do projeto e execute:
 
 ```bash
 javac -encoding UTF-8 -d build src/Calculadora.java src/Main.java src/TesteCalculadora.java
@@ -52,7 +52,3 @@ Calculadora/
 ├── executar.sh
 ├── .gitignore
 └── README.md
-
-
-
-
