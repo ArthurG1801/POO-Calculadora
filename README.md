@@ -55,11 +55,7 @@ Calculadora/
 ```
 
 
-## Publicação solicitada no GitHub
 
-O GitHub não permite barras (`/`) dentro do **nome de um repositório**. Para representar `POO/Calculadora`, crie um repositório público chamado **`POO`** e coloque esta pasta **`Calculadora`** dentro dele. Assim, o caminho do trabalho será `POO/Calculadora`.
-
-1. Acesse [Criar repositório](https://github.com/new?name=POO&visibility=public), escolha sua conta e confirme a visibilidade **Public**.
 2. Marque a opção de criar o repositório com um README inicial, se ela for exibida, e clique em **Create repository**.
 3. Abra o repositório `POO`, selecione **Add file → Upload files** e envie **a pasta `Calculadora`** (não envie apenas o arquivo `.zip`).
 4. Confirme o commit e abra `Calculadora/README.md` para verificar que o código e o print aparecem corretamente.
