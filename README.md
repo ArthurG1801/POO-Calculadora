@@ -8,8 +8,7 @@
 
 Neste trabalho, fiz uma calculadora em Java para praticar os métodos e os conceitos de POO vistos em aula. Usei a classe `Calculadora` para organizar as operações e o Java Swing para criar uma tela em que é possível digitar dois números e escolher a conta.
 
-Além das quatro operações básicas, também coloquei a potenciação. No título da janela aparecem meu nome completo e meu RA, conforme pedido na atividade.
-
+Além das quatro operações básicas, também coloquei a potenciação. No título da janela aparecem meu nome completo e meu RA.
 ## Operações
 
 - Adição — `somar()`
