@@ -1,54 +1,49 @@
-# POO / Calculadora — Java Swing
+# Calculadora em Java — POO
 
 **Aluno:** Arthur Gabriel Solidonio Alves Da Silva  
 **RA:** 0024440  
 **Disciplina:** Programação Orientada a Objetos (POO)
 
-Este projeto dá continuidade à classe `Calculadora` trabalhada em exercícios anteriores de POO, que já possuía os métodos de soma, subtração, multiplicação e divisão. Foi incluído o método `potencia()` e criada uma interface gráfica usando Java Swing (`JFrame`).
+## Sobre o trabalho
 
-## Funcionalidades obrigatórias
+Neste trabalho, fiz uma calculadora em Java para praticar os métodos e os conceitos de POO vistos em aula. Usei a classe `Calculadora` para organizar as operações e o Java Swing para criar uma tela em que é possível digitar dois números e escolher a conta.
 
-1. **Adição:** `somar(double a, double b)`
-2. **Subtração:** `subtrair(double a, double b)`
-3. **Multiplicação:** `multiplicar(double a, double b)`
-4. **Divisão:** `dividir(double a, double b)` (impede divisão por zero)
-5. **Potência:** `potencia(double base, double expoente)` (usa `Math.pow`)
+Além das quatro operações básicas, também coloquei a potenciação. No título da janela aparecem meu nome completo e meu RA, conforme pedido na atividade.
 
+## Operações
 
-## Print da tela
+- Adição — `somar()`
+- Subtração — `subtrair()`
+- Multiplicação — `multiplicar()`
+- Divisão — `dividir()`
+- Potência — `potencia()`
 
-![Print real da calculadora Java Swing exibindo as cinco operações, nome e RA](prints/tela_calculadora.png)
+Também fiz uma verificação para não permitir divisão por zero.
 
-## Como executar (JDK 8 ou superior)
+## Print da calculadora
 
-Abra o terminal na pasta principal do projeto e execute:
+![Tela da calculadora com meu nome e RA](prints/tela_calculadora.png)
+
+## Como executar
+
+É necessário ter o Java JDK instalado. No Windows, basta abrir o arquivo `executar.bat`.
+
+Também dá para executar pelo terminal, na pasta principal do projeto:
 
 ```bash
 javac -encoding UTF-8 -d build src/Calculadora.java src/Main.java src/TesteCalculadora.java
 java -cp build Main
 ```
 
-No Windows, também é possível executar `executar.bat` (com Java JDK instalado e adicionado ao PATH).
-
-## Como testar os cinco métodos
+Para testar os métodos, use:
 
 ```bash
 java -cp build TesteCalculadora
 ```
 
-Os testes usam os valores `12` e `5` para conferir todas as operações e também verificam divisão por zero.
+## Arquivos do projeto
 
-## Estrutura do projeto
-
-```text
-Calculadora/
-├── src/
-│   ├── Calculadora.java          # Métodos matemáticos
-│   ├── Main.java                 # Tela Java Swing / TITLE FORM
-│   └── TesteCalculadora.java     # Verificações das operações
-├── prints/
-│   └── tela_calculadora.png      # Captura real do programa
-├── executar.bat
-├── executar.sh
-├── .gitignore
-└── README.md
+- `src/Calculadora.java` — contém os cinco métodos.
+- `src/Main.java` — contém a tela da calculadora.
+- `src/TesteCalculadora.java` — contém os testes das operações.
+- `prints/tela_calculadora.png` — imagem da calculadora funcionando.
