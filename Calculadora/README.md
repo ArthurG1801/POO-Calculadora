@@ -24,7 +24,7 @@ A calculadora permite digitar números, usar vírgula ou ponto decimal, limpar a
 
 ![Calculadora em Java, com nome e RA no cabeçalho](prints/tela_calculadora.png)
 
-O [print completo com o título da janela](prints/tela_calculadora_com_titulo.png) também está disponível para conferir o TITLE FORM.
+O título do formulário com meu nome e RA está definido no arquivo `Calc.java`.
 
 ## Como executar
 
