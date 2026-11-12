@@ -1,0 +1,9 @@
+# Arquivos gerados na compilação Java
+build/
+*.class
+# Configurações locais de IDE
+.idea/
+.settings/
+.classpath
+.project
+*.iml
