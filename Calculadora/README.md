@@ -6,9 +6,7 @@
 
 ## Sobre o trabalho
 
-Neste trabalho, continuei a calculadora em Java iniciada no laboratório do dia 09/11. Mantive a estrutura usada na aula e completei as cinco operações pedidas pelo professor. Também ajustei os cálculos para a calculadora funcionar corretamente.
-
-Meu nome completo e RA estão no título da janela, conforme pedido na atividade.
+Neste trabalho, desenvolvi uma calculadora em Java utilizando os conceitos de Programação Orientada a Objetos (POO). O programa realiza cinco operações matemáticas: adição, subtração, multiplicação, divisão e potência. Também organizei o código e criei uma interface gráfica para facilitar o uso da calculadora, permitindo realizar os cálculos de forma simples e prática.
 
 ## Operações da calculadora
 
