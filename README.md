@@ -6,7 +6,7 @@
 
 Este projeto dá continuidade à classe `Calculadora` trabalhada em exercícios anteriores de POO, que já possuía os métodos de soma, subtração, multiplicação e divisão. Foi incluído o método `potencia()` e criada uma interface gráfica usando Java Swing (`JFrame`).
 
-## Funcionalidade obrigatórias
+## Funcionalidades obrigatórias
 
 1. **Adição:** `somar(double a, double b)`
 2. **Subtração:** `subtrair(double a, double b)`
