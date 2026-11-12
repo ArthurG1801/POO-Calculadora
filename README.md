@@ -56,9 +56,3 @@ Calculadora/
 
 
 
-2. Marque a opção de criar o repositório com um README inicial, se ela for exibida, e clique em **Create repository**.
-3. Abra o repositório `POO`, selecione **Add file → Upload files** e envie **a pasta `Calculadora`** (não envie apenas o arquivo `.zip`).
-4. Confirme o commit e abra `Calculadora/README.md` para verificar que o código e o print aparecem corretamente.
-5. Copie o link da pasta `Calculadora` para entregar ao professor.
-
-Se preferir criar o repositório **`POO-Calculadora`**, também é um nome válido, mas o caminho ficará diferente do indicado no enunciado.
