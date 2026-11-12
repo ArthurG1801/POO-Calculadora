@@ -1,6 +1,5 @@
 package calculadora;
 
-/** Operações matemáticas usadas pela tela da calculadora. */
 public class Calculadora {
     public double somar(double a, double b) {
         return a + b;

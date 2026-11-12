@@ -1,8 +1,6 @@
-# Arquivos gerados pelo Java
 build/
 *.class
 
-# Arquivos temporários das IDEs
 .settings/
 .classpath
 .project

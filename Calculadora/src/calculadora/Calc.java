@@ -19,7 +19,6 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.UIManager;
 
-/** Continuação da calculadora feita na aula de 09/11. */
 public class Calc {
 
     private JFrame frame;
@@ -39,7 +38,6 @@ public class Calc {
     private static final Color AZUL = new Color(28, 47, 77);
     private static final Color VERDE = new Color(0, 139, 103);
 
-    /** Inicia a aplicação, como no código visto no laboratório. */
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -54,7 +52,6 @@ public class Calc {
         });
     }
 
-    /** Cria a aplicação. */
     public Calc() {
         DecimalFormatSymbols simbolos = new DecimalFormatSymbols(new Locale("pt", "BR"));
         formato = new DecimalFormat("0.##########", simbolos);
@@ -62,7 +59,6 @@ public class Calc {
         initialize();
     }
 
-    /** Monta os elementos da janela, seguindo a estrutura da aula. */
     private void initialize() {
         frame = new JFrame();
         frame.setTitle("CALCULADORA POO - " + ALUNO + " - RA: " + RA);
@@ -108,7 +104,6 @@ public class Calc {
         frame.getContentPane().add(JTFResultado);
         JTFResultado.setColumns(10);
 
-        // Exibe o nome da operação e a conta realizada.
         JPanel painelConta = new JPanel(null);
         painelConta.setBounds(53, 226, 930, 66);
         painelConta.setBackground(new Color(232, 245, 241));
@@ -139,7 +134,6 @@ public class Calc {
         operacoes.setForeground(AZUL);
         frame.getContentPane().add(operacoes);
 
-        // Botões numéricos: mesmas teclas do código feito no laboratório.
         adicionarNumero("7", 55, 356);
         adicionarNumero("8", 175, 356);
         adicionarNumero("9", 295, 356);
@@ -153,7 +147,6 @@ public class Calc {
         adicionarDecimal(",", 175, 539);
         adicionarDecimal(".", 295, 539);
 
-        // Cinco operações obrigatórias, incluindo potência.
         adicionarOperacao("+", "Soma", 491, 356);
         adicionarOperacao("−", "Subtracao", 613, 356);
         adicionarOperacao("×", "Multiplicacao", 735, 356);
@@ -261,7 +254,6 @@ public class Calc {
 
     private void selecionarOperacao(String operacao) {
         try {
-            // Se houver uma conta pendente e segundo valor, resolve antes da próxima operação.
             if (valor1 != null && !op.isEmpty() && !iniciarNovoNumero) {
                 calcularResultado();
             }
