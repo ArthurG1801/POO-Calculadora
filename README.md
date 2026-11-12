@@ -54,7 +54,6 @@ Calculadora/
 └── README.md
 ```
 
-> **Observação:** O print demonstra a interface executando a multiplicação `12 × 5 = 60`. Todas as outras operações também funcionam nos respectivos botões.
 
 ## Publicação solicitada no GitHub
 
